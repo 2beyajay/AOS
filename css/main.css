@@ -1,0 +1,25 @@
+body{
+    background-color: rgb(209, 209, 209);
+}
+
+.mem{
+    padding: 50px;
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+}
+.enlarge{
+    transition: transform 1s; /* Animation */
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.enlarge:hover{
+    transform: scale(1.2);
+}
+
+.mid-div{
+    border-right: blueviolet solid 2px;
+    border-left: blueviolet solid 2px;
+    box-shadow: 10px 10px 5px grey;
+}
