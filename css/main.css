@@ -1,7 +1,10 @@
 body{
-    background-color: rgb(209, 209, 209);
+     background-color: rgb(66, 66, 66); 
 }
 
+.navbar-brand{
+    font-family: 'Eater', cursive;
+}
 .mem{
     padding: 50px;
     width: 200px;
@@ -9,17 +12,27 @@ body{
     margin: 0 auto;
 }
 .enlarge{
-    transition: transform 1s; /* Animation */
+    transition: transform 0.8s;  /* animation */
     margin-left: auto;
     margin-right: auto;
 }
 
 .enlarge:hover{
-    transform: scale(1.2);
+    transform: scale(1.1);
 }
 
 .mid-div{
+    background-color: rgb(138, 138, 138);
     border-right: blueviolet solid 2px;
     border-left: blueviolet solid 2px;
-    box-shadow: 10px 10px 5px grey;
+    box-shadow: 10px 10px 5px rgb(36, 36, 36);
+}
+
+.left-div ul li{
+    margin: 60px auto;
+    text-align: center;
+}
+
+h2{
+    color: white
 }
